@@ -16,7 +16,7 @@ const eventsCol = collection(db, "events");
 
 // 2. Initialize Map (Leaflet)
 const map = L.map('map-container').setView([40.7128, -74.0060], 13); // Default NYC
-L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png', {
+L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png?api_key=cb1_3xah_1_ed0724a4d4cda2e518dc7f95', {
     attribution: '&copy; OpenStreetMap contributors'
 }).addTo(map);
 
